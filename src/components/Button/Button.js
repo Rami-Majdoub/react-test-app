@@ -1,8 +1,11 @@
 import "./Button.css"
 
-function Button(){
+function Button({ val, equation, setEquation }){
+	function onClick() {
+		setEquation(equation + val);
+	}
 	return(
-		<button className="button">1</button>
+		<button className="button" onClick={onClick}>{val}</button>
 	);
 }
 

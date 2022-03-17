@@ -2,7 +2,9 @@
 	padding: 20px;
 	margin: 10px;
 	border-radius: 5px;
-	background: gray;
+	background: rgb(127, 162, 218);
 	color: white;
-	
+	border-color: rgb(97, 139, 231);
+	font-size: medium;
+	font-weight: bold;
 }
